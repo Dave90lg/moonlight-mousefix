@@ -12,7 +12,17 @@ A small C application to automatically disable mouse acceleration when spawning 
 # Usage
 1. Compile the c code with your compiler of choice either on windows or linux
 2. Place your compiled exe (moonlight-mousefix.exe or moonlight-mousefix_fast.exe) in any folder and add it to sunshine or nvidia geforce experience to load this (Nvidia GFE>Settings>Shield, make sure Gamestream is enabled and add the exe. I named mine "Desktop")
-3. Connect to moonlight and select your app and enjoy :)
+3. If SmartScreen is enabled, it will prompt you each time you load the app. To disable this, right click your exe>properties, and click "Unblock" and apply/OK.
+4. Connect to moonlight and select your app and enjoy :)
+
+---
+
+# Screenshots
+![Adding exe](images/GFE1.png)
+![Added exe](images/GFE2.png)
+![Running exe](images/GFE3.png)
+![Running exe](images/GFE4.png)
+![Disabled!](images/GFE5.png)
 
 ---
 
