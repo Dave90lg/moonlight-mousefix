@@ -15,8 +15,7 @@ void CloseMouseProperties(void) {
     if (!hwnd) {
         // Some Windows builds/locales use this variation
         hwnd = FindWindow(L"#32770", L"Properties for Mouse");
-    }
-    if (hwnd) {
+    } else {
         PostMessage(hwnd, WM_CLOSE, 0, 0);
     }
 }
